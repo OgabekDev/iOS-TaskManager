@@ -13,6 +13,10 @@
 		6422634D29ED796B009AAE38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6422634C29ED796B009AAE38 /* Preview Assets.xcassets */; };
 		6422634F29ED796B009AAE38 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422634E29ED796B009AAE38 /* Persistence.swift */; };
 		6422635229ED796B009AAE38 /* Task_Manager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6422635029ED796B009AAE38 /* Task_Manager.xcdatamodeld */; };
+		6422635B29ED7E6B009AAE38 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422635A29ED7E6B009AAE38 /* Home.swift */; };
+		6422635D29ED8412009AAE38 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422635C29ED8412009AAE38 /* TaskViewModel.swift */; };
+		6422635F29EEBFB4009AAE38 /* AddNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422635E29EEBFB4009AAE38 /* AddNewTask.swift */; };
+		6422636329EF02D1009AAE38 /* DinamicFilteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6422636229EF02D1009AAE38 /* DinamicFilteredView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		6422634C29ED796B009AAE38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6422634E29ED796B009AAE38 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		6422635129ED796B009AAE38 /* Task_Manager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Task_Manager.xcdatamodel; sourceTree = "<group>"; };
+		6422635A29ED7E6B009AAE38 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		6422635C29ED8412009AAE38 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		6422635E29EEBFB4009AAE38 /* AddNewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTask.swift; sourceTree = "<group>"; };
+		6422636229EF02D1009AAE38 /* DinamicFilteredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinamicFilteredView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +63,10 @@
 		6422634429ED796A009AAE38 /* Task Manager */ = {
 			isa = PBXGroup;
 			children = (
+				6422635929ED7C6C009AAE38 /* ViewModel */,
+				6422635829ED7C5F009AAE38 /* View */,
 				6422634529ED796A009AAE38 /* Task_ManagerApp.swift */,
+				6422636229EF02D1009AAE38 /* DinamicFilteredView.swift */,
 				6422634729ED796A009AAE38 /* ContentView.swift */,
 				6422634929ED796B009AAE38 /* Assets.xcassets */,
 				6422634E29ED796B009AAE38 /* Persistence.swift */,
@@ -71,6 +82,23 @@
 				6422634C29ED796B009AAE38 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6422635829ED7C5F009AAE38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6422635A29ED7E6B009AAE38 /* Home.swift */,
+				6422635E29EEBFB4009AAE38 /* AddNewTask.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6422635929ED7C6C009AAE38 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6422635C29ED8412009AAE38 /* TaskViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6422634F29ED796B009AAE38 /* Persistence.swift in Sources */,
+				6422635D29ED8412009AAE38 /* TaskViewModel.swift in Sources */,
 				6422634829ED796A009AAE38 /* ContentView.swift in Sources */,
+				6422636329EF02D1009AAE38 /* DinamicFilteredView.swift in Sources */,
+				6422635B29ED7E6B009AAE38 /* Home.swift in Sources */,
+				6422635F29EEBFB4009AAE38 /* AddNewTask.swift in Sources */,
 				6422635229ED796B009AAE38 /* Task_Manager.xcdatamodeld in Sources */,
 				6422634629ED796A009AAE38 /* Task_ManagerApp.swift in Sources */,
 			);
